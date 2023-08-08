@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Logged IN !!</title>
+</head>
+<body>
+	
+	<h2>Congratulations you have successfully logged in :)</h2>
+	
+	<p th:text="${loginData.userName}"></p>
+	<p th:text="${loginData.email}"></p>
+	<p th:text="${loginData.password}"></p>
+	
+</body>
+</html>
